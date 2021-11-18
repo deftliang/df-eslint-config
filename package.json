@@ -1,0 +1,40 @@
+{
+  "name": "@deft/eslint-config-vue",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Deft's ESLint Config for Vue",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deftliang/df-eslint-config.git"
+  },
+  "keywords": [
+    "prettier",
+    "eslint",
+    "deft"
+  ],
+  "author": "deft",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deftliang/df-eslint-config/issues"
+  },
+  "homepage": "https://github.com/deftliang/df-eslint-config#readme",
+  "peerDependencies": {
+    "eslint": "^7.19.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=12"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.14.2",
+    "@typescript-eslint/parser": "^4.14.2",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.5.0"
+  }
+}
