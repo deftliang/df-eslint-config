@@ -1,5 +1,5 @@
 {
-  "name": "@deft/eslint-config-vue",
+  "name": "deft-eslint-config-vue",
   "version": "1.0.0",
   "description": "Deft's ESLint Config for Vue",
   "main": "index.js",
