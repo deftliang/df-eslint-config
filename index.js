@@ -6,13 +6,6 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
 
-  globals: {
-    defineProps: 'readonly',
-    defineEmits: 'readonly',
-    defineExpose: 'readonly',
-    withDefaults: 'readonly',
-  },
-
   env: {
     es6: true,
     node: true,
