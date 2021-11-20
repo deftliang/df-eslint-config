@@ -1,6 +1,6 @@
 # @deft-v/eslint-config
 
-### Start
+### Install
 
 ```js
 npm i eslint prettier @deft-v/eslint-config-vue -D

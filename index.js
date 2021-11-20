@@ -6,6 +6,13 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
 
+  globals: {
+    defineProps: 'readonly',
+    defineEmits: 'readonly',
+    defineExpose: 'readonly',
+    withDefaults: 'readonly',
+  },
+
   env: {
     es6: true,
     node: true,
@@ -14,7 +21,6 @@ module.exports = {
 
   parser: 'vue-eslint-parser',
 
-  // https://cn.eslint.org/docs/user-guide/configuring#specifying-parser-options
   parserOptions: {
     ecmaVersion: 12,
     parser: '@typescript-eslint/parser',
