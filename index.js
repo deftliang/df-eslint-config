@@ -40,6 +40,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/no-var-requires': 'off',
     'import/no-extraneous-dependencies': 'off',
-    'vue/html-indent': 'off'
+    'vue/html-indent': 'off',
+    'prettier/prettier': 'off'
   },
 };
